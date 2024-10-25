@@ -1,0 +1,337 @@
+/*공통 css*/
+#wrap {
+  min-width: 1200px;
+  overflow-x: hidden;
+}
+
+.inner {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/*header*/
+header {
+  padding: 20px 0 25px 0;
+}
+
+header .inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav {
+  display: flex;
+  gap: 100px;
+  position: absolute;
+  top: 22px;
+  right: 22px;
+}
+
+.gnb {
+  width: 680px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "경기천년바탕";
+  font-size: 20px;
+  color: #272727;
+  font-weight: 400;
+}
+
+.icon {
+  width: 115px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*main-visual*/
+#main-visual {
+  width: 100%;
+  height: 798px;
+  background: url(../image/main_visual.png) no-repeat center;
+}
+
+#main-visual .inner .txt {
+  position: absolute;
+  top: 440px;
+  left: 0;
+}
+
+#main-visual .inner h2 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: normal;
+  margin-bottom: 35px;
+  font-family: "경기천년바탕";
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+#main-visual .inner p {
+  color: #fff;
+  font-size: 30px;
+  font-family: "경기천년바탕";
+  letter-spacing: 3px;
+}
+
+/*collection*/
+#collection {
+  background-color: #f2f6ec;
+  padding: 85px 0;
+}
+
+#collection h3 {
+  font-size: 36px;
+  color: #54765d;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "경기천년바탕";
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+
+.col {
+  width: 1265px;
+}
+
+#collection ul li {
+  height: 585px;
+  background-color: #fff;
+  border-radius: 20px;
+  position: relative;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+#collection ul li img {
+  margin: 40px auto;
+  padding-top: 50px;
+}
+
+#collection .tit {
+  font-size: 24px;
+  margin-bottom: 5px;
+  letter-spacing: 2px;
+  color: #545454;
+}
+
+#collection .tit::before {
+  content: "";
+  display: block;
+  width: 303px;
+  height: 2px;
+  background-color: #d2d2d2;
+  margin: 20px auto;
+}
+
+#collection .tag {
+  font-size: 18px;
+  opacity: 0.5;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+#collection .price {
+  font-size: 24px;
+  font-weight: 500;
+  color: #545454;
+}
+
+.swiper-button-next, .swiper-button-prev {
+  color: #54765d;
+}
+
+/*personal*/
+#personal {
+  padding: 95px 0;
+}
+
+#personal .p-wrap {
+  display: flex;
+  justify-content: center;
+  gap: 110px;
+  position: relative;
+}
+
+#personal .p-wrap .left {
+  transform: translateY(25%);  
+}
+
+#personal .p-wrap .left .title {
+  font-size: 40px;
+  font-weight: 200;
+  line-height: 1.15;
+  margin-bottom: 35px;
+}
+
+#personal .p-wrap .left .text {
+  font-size: 21px;
+  font-weight: 200;
+  margin-bottom: 35px;
+}
+
+#personal .p-wrap .left a {
+  display: block;
+  width: 160px;
+  height: 36px;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 36px;
+  background: url(../image/more1.png) no-repeat center right;
+}
+
+/*story*/
+#story {
+  margin-bottom: 165px;
+}
+
+h3 {
+  font-size: 36px;
+  margin: 50px 0;
+}
+
+#story .inner {
+  text-align: center;
+  position: relative;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 30px 0 15px 20px;
+}
+
+.sub {
+  font-size: 14px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+h5 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.story-wrap {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+.right {
+  display: flex;
+  gap: 60px;
+}
+
+.oil {
+  display: flex;
+  gap: 45px;
+}
+
+.oil .img {
+  margin-bottom: 30px;
+}
+
+.more {
+  position: absolute;
+  top: 10%;
+  left: 60%;
+}
+
+/*banner*/
+#banner {
+  margin-bottom: 85px;
+}
+
+#banner img {
+  width: 100%;
+}
+
+/*membership*/
+#membership {
+  text-align: center;
+  margin-bottom: 90px;
+}
+
+.pictogram {
+  display: flex;
+  justify-content: center;
+}
+
+.pictogram .pic-wrap {
+  width: 500px;
+  height: 465px;
+  border: 1px solid #ccc;
+  padding-top: 120px;
+}
+
+.pictogram .img-box {
+  width: 125px;
+  height: 100px;
+  margin: 0 auto 40px;
+}
+
+.pictogram .img-box img {
+  object-fit: contain;
+}
+
+.pictogram .txt-box strong {
+  display: block;
+  font-size: 24px;
+  padding-bottom: 15px;
+}
+
+.pictogram .txt-box p {
+  font-size: 18px;
+}
+
+/*footer*/
+footer {
+  padding: 90px 0 60px;
+  background-color: #eee;
+}
+
+.f-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.f-info > li > p {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #2e2e2e;
+}
+
+.f-info ul > li {
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+.f-info ul > li > a {
+  font-weight: 300;
+  color: #2e2e2e;
+}
+
+.f-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+address {
+  font-weight: 300;
+  color: #2e2e2e;
+}
+
+.sns {
+  display: flex;
+  gap: 10px;
+}
+
+/*top-btn*/
+.top {
+  position: fixed;
+  right: 125px;
+  bottom: 105px;
+}

@@ -9,6 +9,7 @@ var swiper = new Swiper(".col", {
   },
   loop: true,
 
-  slidesPerView: 2, //스와이퍼 갯수
-  spaceBetween: 100, //사이 간격
+  slidesPerView: 3, //스와이퍼 갯수
+  spaceBetween: 20, //사이 간격
+  centeredSlides: true,
 });
